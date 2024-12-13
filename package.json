@@ -1,0 +1,16 @@
+{
+  "name": "top-news",
+  "version": "1.0.0",
+  "description": "Apenas estudos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0"
+  }
+}
