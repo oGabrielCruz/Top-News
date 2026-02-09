@@ -29,7 +29,7 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div style={{ backgroundColor: 'blue', minHeight: '100vh' }}>
       {isVisible && <h1>Vai explodirr! Contagem regressiva: {countdown}</h1>}
     </div>
   );
