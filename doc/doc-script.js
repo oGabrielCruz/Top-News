@@ -161,7 +161,7 @@ function toggleTree() {
   if (sidebarVisible) {
     document.body.className = document.body.className.replace(
       /\s*sidebar/g,
-      "",
+      ""
     );
     sidebarVisible = false;
   } else {
@@ -196,7 +196,7 @@ function wireUpTabs() {
         return function () {
           switchTab(c);
         };
-      })(children[i].className),
+      })(children[i].className)
     );
   }
 }
