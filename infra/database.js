@@ -23,15 +23,11 @@ async function getNewClient() {
     password: process.env.POSTGRES_PASSWORD,
     ssl: getSSLValues(),
   });
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
   await client.connect();
   return client;
 }
 
-<<<<<<< HEAD
 const database = {
   query,
   getNewClient,
@@ -39,12 +35,6 @@ const database = {
 
 export default database;
 
-=======
-export default {
-  query,
-  getNewClient,
-};
->>>>>>> origin/main
 function getSSLValues() {
   if (process.env.POSTGRES_CA) {
     return {

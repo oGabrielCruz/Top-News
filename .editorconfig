@@ -2,9 +2,4 @@ root = true
 
 [*]
 indent_style = space
-<<<<<<< HEAD
 indent_size = 2
-=======
-indent_size = 2
-
->>>>>>> origin/main
