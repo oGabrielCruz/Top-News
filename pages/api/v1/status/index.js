@@ -31,5 +31,8 @@ async function status(request, response) {
     },
   });
 }
+<<<<<<< HEAD
 
 export default status;
+=======
+>>>>>>> origin/main
